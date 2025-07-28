@@ -15,8 +15,7 @@ Simulation is setup and run with GRAND_Code/driver_GRAND.m and GRAND_Code/driver
 
 Sample output is in RESULTS, and sample plots from those results can be made with MAKE_FIGS/driver_sample_figs.m and MAKE_FIGS/driver_SO_figs.m
 
-Note that for an [n,k] code, where k information bits become n coded bits, GRAND algorithms accurately and efficiently decode codes where n-k is moderate. This MATL
-AB implementation is solely intended to be instructive and is not parallelised, even though highly-parallelised implementations are possible. As a result, obtaining the full performance of a code with n-k>20 may prove time-consuming with the present implementation.
+Note that for an [n,k] code, where k information bits become n coded bits, GRAND algorithms accurately and efficiently decode codes where n-k is moderate. This MATLAB implementation is solely intended to be instructive and is not parallelised, even though highly-parallelised implementations are possible. As a result, obtaining the full performance of a code with n-k>20 may prove time-consuming with the present implementation. 
 
 The following should be cited in association with results from this code.
 
