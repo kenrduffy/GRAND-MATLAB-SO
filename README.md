@@ -9,6 +9,8 @@ Non-parallelized MATLAB implementations of: GRAND (hard detection); basic ORBGRA
 
 Code produces blockwise soft-output in the form of a post-decoding estimate of the likelihood that the decoding is correct.
 
+Code uses the even code property for GRAND, basic ORBGRAND and 1-line ORBGRAND.
+
 Simulation is setup and run with GRAND_Code/driver_GRAND.m and GRAND_Code/driver_SO.m
 
 Sample output is in RESULTS, and sample plots from those results can be made with MAKE_FIGS/driver_sample_figs.m and MAKE_FIGS/driver_SO_figs.m
